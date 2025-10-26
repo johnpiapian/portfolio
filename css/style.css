@@ -49,11 +49,11 @@ https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557
 }
 
 /* Fonts */
-@font-face {
+/* @font-face {
   font-family: 'Mackinac-Pro-Book';
   src: url('../assets/fonts/P22Mackinac/P22MackinacPro-Medium_26.otf');
   src: url('../assets/fonts/P22Mackinac/P22MackinacPro-Book_25.otf');
-}
+} */
 
 :root {
   --main-max-width: 1000px;
@@ -95,7 +95,7 @@ a {
 
 /* Main Start */
 body {
-  font-family: 'Mackinac-Pro-Book', 'Lato', 'Open Sans', sans-serif;
+  font-family: 'Lato', 'Open Sans', sans-serif;
   margin-top: 60vh;
 }
 
@@ -403,7 +403,7 @@ section.content .projects {
 
 section.content .projects .sample {
   border-radius: 8px;
-  background-color: #ebebeb7c;
+  /* background-color: #ebebeb7c; */
 }
 
 section.content .projects .link {
@@ -536,7 +536,16 @@ article.project-item footer>p {
 article.project-item footer p.hash-tag {
   font-size: .9em;
   text-align: center;
-  padding: 5px;
+  padding: 4px;
+}
+
+article.project-item footer p.hash-tag .hash-tag-item::before {
+  content: "#";
+}
+
+article.project-item footer p.hash-tag .hash-tag-item {
+  margin: 0 2px;
+  color: var(--color-4b);
 }
 
 article.project-item footer p.description {

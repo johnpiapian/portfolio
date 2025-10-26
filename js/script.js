@@ -42,15 +42,24 @@ function $createElement(tagName, textContent = null, attributes = [], childs = [
   return res;
 }
 
-function createArticleElement(title, imgName, hashTag, description, liveHref, sourceHref) {
+function createArticleElement(title, imgName, hashTags, description, liveHref, sourceHref) {
   let h1El = $createElement('h1', title);
   let headerEl = $createElement('header', null, [], [h1El]);
 
   let imgEl = $createElement('img', null, [['src', `imgs/${imgName}`], ['alt', imgName]]);
   let sectionEl = $createElement('section', null, [['class', 'image-container']], [imgEl]);
 
-  let p1 = $createElement('p', hashTag, [['class', 'hash-tag']]);
-  let p2 = $createElement('p', description, [['class', 'description']]);
+  // let p1 = $createElement('p', hashTag, [['class', 'hash-tag']]);
+  
+  // Hash Tags
+  let hashTagEl = $createElement('p', null, [['class', 'hash-tag']]);
+  hashTags.forEach(tag => {
+    let tagEl = $createElement('span', tag, [['class', 'hash-tag-item']]);
+    hashTagEl.appendChild(tagEl);
+  });
+
+  // Description
+  let descriptionEl = $createElement('p', description, [['class', 'description']]);
 
   // Handle empty source or live links
   let classLink1 = (liveHref.isEmpty()) ? ['class', 'unavail'] : ['class', ''];
@@ -63,7 +72,7 @@ function createArticleElement(title, imgName, hashTag, description, liveHref, so
   if (sourceHref.isEmpty()) { link2.setAttribute("onclick", "return false;"); }
 
   let linksEl = $createElement('div', null, [['class', 'links']], [link1, link2]);
-  let footerEl = $createElement('footer', null, [], [p1, p2, linksEl]);
+  let footerEl = $createElement('footer', null, [], [hashTagEl, descriptionEl, linksEl]);
 
   let articleEl = $createElement('article', null, [['class', 'project-item']], [headerEl, sectionEl, footerEl]);
 
@@ -77,7 +86,7 @@ function loadProjects(containerElement, limit = -1) {
     .then(res => {
       res.forEach(e => {
         if (limit == 0) return;
-        containerElement.appendChild(createArticleElement(e.title, e.imgName, e.hashTag, e.description, e.liveHref, e.sourceHref));
+        containerElement.appendChild(createArticleElement(e.title, e.imgName, e.hashTags, e.description, e.liveHref, e.sourceHref));
         if (limit != null) limit--;
       });
     })
