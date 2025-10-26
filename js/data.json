@@ -2,15 +2,15 @@
     {
         "title": "AppZomi",
         "imgName": "appzomi.png",
-        "hashTag": "#HTML #CSS #JavaScript",
+        "hashTags": ["NestJS", "Nginx", "Docker"],
         "description": "A personal sandbox website.",
         "liveHref": "http://appzomi.dev/",
         "sourceHref": ""        
     },
     {
         "title": "egoChat",
-        "imgName": "chat.jpg",
-        "hashTag": "#JavaScript #Node.js #Socket.io",
+        "imgName": "chat.png",
+        "hashTags": ["Node.js", "Socket.io"],
         "description": "A live chat web app.",
         "liveHref": "http://chat.appzomi.dev/",
         "sourceHref": ""        
@@ -18,15 +18,15 @@
     {
         "title": "NFT Web Application Project",
         "imgName": "nft_project.png",
-        "hashTag": "#Java #SQlite #JavaScript #Bootstrap",
-        "description": "This project simulates a vulnerable NFT marketplace web app with deliberately introduced security weaknesses to gain practical understanding by identifying and fixing them.",
+        "hashTags": ["JavaScript", "Java", "SQlite", "Bootstrap"], 
+        "description": "Full-stack web application intentionally embedded with vulnerabilities for penetration testing.",
         "liveHref": "",
         "sourceHref": "https://github.com/johnpiapian/NFT_web_application_project"        
     },
     {
         "title": "Youtube Title Extractor",
-        "imgName": "youtube-title-extractor.jpg",
-        "hashTag": "#Python", 
+        "imgName": "youtube-title-extractor.png",
+        "hashTags": ["Python"],
         "description": "Extract video titles from a youtube playlist and export the data.",
         "liveHref": "https://appzomi.dev/dev/apps/youtube-title-extrator/",
         "sourceHref": "https://github.com/johnpiapian/youtube-title-extractor"
@@ -34,7 +34,7 @@
     {
         "title": "Bookstore",
         "imgName": "Bookstore.png",
-        "hashTag": "#.NET #React #MongoDB",
+        "hashTags": ["Next.js", ".NET", "MongoDB"],
         "description": "Save your favorite books.",
         "liveHref": "",
         "sourceHref": "https://github.com/johnpiapian/Bookstore"        
@@ -42,7 +42,7 @@
     {
         "title": "Todo React Express",
         "imgName": "todo-react-express.jpg",
-        "hashTag": "#Next.js #Express #SQlite #Docker",
+        "hashTags": ["Next.js", "Node.js", "SQlite", "MongoDB"],
         "description": "A todo web app with a fully functional login system and database integration.",
         "liveHref": "imgs/todo-react-express.gif",
         "sourceHref": "https://github.com/johnpiapian/todo-react-express"
@@ -50,15 +50,15 @@
     {
         "title": "Todo List",
         "imgName": "web_todo.png",
-        "hashTag": "#HTML #CSS #JavaScript",
+        "hashTags": ["HTML", "CSS", "JavaScript"],
         "description": "A todo list that helps you keep track of tasks.",
         "liveHref": "https://appzomi.dev/dev/webapps/todo-list/",
         "sourceHref": ""        
     },
     {
         "title": "egoChat iOS",
-        "imgName": "egochat_ios.jpg",
-        "hashTag": "#IOS #Swift #Socket.io",
+        "imgName": "egochat_ios.png",
+        "hashTags": ["Swift", "iOS", "Socket.io"],
         "description": "An iOS app for egoChat.",
         "liveHref": "",
         "sourceHref": "https://github.com/johnpiapian/egoChat_iOS"        
