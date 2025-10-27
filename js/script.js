@@ -126,10 +126,10 @@ function handleScrollToElement(e) {
 function scrollHandler(e) {
     const navLinks = document.querySelectorAll('nav ul li a.linkToElement');
     const sections = document.querySelectorAll("section[data-scroll-spy='true']");
-    const offset = 200; // offset before is considered in viewport
 
     const scrollY = window.scrollY;
     const viewportHeight = window.innerHeight;
+    const offset = viewportHeight * .3; // offset before is considered in viewport
     let currentSectionId = null;
 
     sections.forEach(section => {
