@@ -16,12 +16,28 @@
         "sourceHref": ""        
     },
     {
+        "title": "Backtester",
+        "imgName": "backtester.png",
+        "hashTags": ["Python", "Pandas", "Matplotlib"],
+        "description": "A backtesting framework for evaluating trading strategies using historical market data.",
+        "liveHref": "",
+        "sourceHref": "https://github.com/johnpiapian/backtester"
+    },
+    {
         "title": "NFT Web Application Project",
-        "imgName": "nft_project.png",
+        "imgName": "nft-project.png",
         "hashTags": ["JavaScript", "Java", "SQlite", "Bootstrap"], 
         "description": "Full-stack web application intentionally embedded with vulnerabilities for penetration testing.",
         "liveHref": "",
         "sourceHref": "https://github.com/johnpiapian/NFT_web_application_project"        
+    },
+    {
+        "title": "Tic-Tac-Toe",
+        "imgName": "tic-tac-toe-dotnet.png",
+        "hashTags": [".NET", "C#"],
+        "description": "A CLI based Tic-Tac-Toe game implemented in C# using .NET.",
+        "liveHref": "",
+        "sourceHref": "https://github.com/johnpiapian/TicTacToe"
     },
     {
         "title": "Youtube Title Extractor",
@@ -33,7 +49,7 @@
     },
     {
         "title": "Bookstore",
-        "imgName": "Bookstore.png",
+        "imgName": "bookstore.png",
         "hashTags": ["Next.js", ".NET", "MongoDB"],
         "description": "Save your favorite books.",
         "liveHref": "",
@@ -49,7 +65,7 @@
     },
     {
         "title": "Todo List",
-        "imgName": "web_todo.png",
+        "imgName": "web-todo.png",
         "hashTags": ["HTML", "CSS", "JavaScript"],
         "description": "A todo list that helps you keep track of tasks.",
         "liveHref": "https://appzomi.dev/dev/webapps/todo-list/",
@@ -57,7 +73,7 @@
     },
     {
         "title": "egoChat iOS",
-        "imgName": "egochat_ios.png",
+        "imgName": "egochat-ios.png",
         "hashTags": ["Swift", "iOS", "Socket.io"],
         "description": "An iOS app for egoChat.",
         "liveHref": "",
