@@ -52,7 +52,7 @@
         "imgName": "bookstore.png",
         "hashTags": ["Next.js", ".NET", "MongoDB"],
         "description": "Save your favorite books.",
-        "liveHref": "",
+        "liveHref": "http://bookstore.appzomi.dev",
         "sourceHref": "https://github.com/johnpiapian/Bookstore"        
     },
     {
