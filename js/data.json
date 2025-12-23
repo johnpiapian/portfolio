@@ -56,20 +56,20 @@
         "sourceHref": "https://github.com/johnpiapian/Bookstore"        
     },
     {
+        "title": "Web Capture",
+        "imgName": "web-capture.png",
+        "hashTags": ["HTML", "CSS", "JavaScript", "NestJS"],
+        "description": "Capture screenshots of any website by entering its URL. The goal is to be able to programmatically capture screenshots of web pages for various purposes, but it is still a work in progress.",
+        "liveHref": "https://www.appzomi.dev/dev/apps/web-capture/",
+        "sourceHref": ""        
+    },
+    {
         "title": "Todo React Express",
         "imgName": "todo-react-express.jpg",
         "hashTags": ["Next.js", "Node.js", "SQlite", "MongoDB"],
         "description": "A todo web app with a fully functional login system and database integration.",
-        "liveHref": "imgs/todo-react-express.gif",
+        "liveHref": "https://todo.appzomi.dev/",
         "sourceHref": "https://github.com/johnpiapian/todo-react-express"
-    },
-    {
-        "title": "Todo List",
-        "imgName": "web-todo.png",
-        "hashTags": ["HTML", "CSS", "JavaScript"],
-        "description": "A todo list that helps you keep track of tasks.",
-        "liveHref": "https://appzomi.dev/dev/webapps/todo-list/",
-        "sourceHref": ""        
     },
     {
         "title": "egoChat iOS",
